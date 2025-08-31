@@ -77,22 +77,21 @@ const Index = () => {
   const featuredProducts = [
     {
       id: "1",
-      image: purpleSerumImage,
-      title: "Readable content DX22",
-      price: 212.00,
-      originalPrice: 250.00,
-      category: "Serum",
+      image: "https://lovebeautyandplanet.in/cdn/shop/files/46071_S6-8901030726125_600x600.jpg?v=1755065049",
+      title: "Anti Dandruff+Lemon Shampoo",
+      price: 150.0,
+      category: "Shampoo",
       rating: 4.5,
-      reviewCount: 150,
+       reviewCount: 150,
       isNew: true,
       colors: ["#8B5CF6", "#EC4899", "#F59E0B"]
     },
     {
       id: "2",
-      image: orangeCreamImage,
-      title: "Modern Eye Brush",
+      image: "https://images.pexels.com/photos/10427813/pexels-photo-10427813.jpeg?cs=srgb&dl=pexels-helloimfrecelynne-10427813.jpg&fm=jpg",
+      title: "Argan Shampoo",
       price: 210.00,
-      category: "Tools",
+      category: "Shampoo",
       rating: 4.8,
       reviewCount: 150,
       isNew: true,
@@ -100,10 +99,10 @@ const Index = () => {
     },
     {
       id: "3",
-      image: redLipstickImage,
-      title: "Voyage face cleaner",
+      image: "https://media6.ppl-media.com//tr:h-235,w-235,c-at_max,dpr-2/static/img/product/354478/joy-skin-fruits-softening-glow-apple-face-wash-for-normal-to-dry-skin-pack-of-2x100ml-1_2_display_1684916733_757dd832.jpg",
+      title: "Apple Facewash",
       price: 200.00,
-      category: "Cleanser",
+      category: "Facewash",
       rating: 4.6,
       reviewCount: 150,
       isNew: true,
@@ -111,11 +110,22 @@ const Index = () => {
     },
     {
       id: "4",
-      image: purpleSerumImage,
-      title: "Hydrating Night Serum",
+      image: "https://media6.ppl-media.com//tr:h-750,w-750,c-at_max,dpr-2,q-40/static/img/product/379553/good-vibes-skin-repair-milk-face-wash-100-ml_9_display_1750414085_2d2cde7d.jpg",
+      title: "Milk Facewash",
+      price: 1,
+      originalPrice: 220.00,
+      category: "Facewash",
+      rating: 4.7,
+      reviewCount: 203,
+      colors: ["#8B5CF6", "#A855F7"]
+    },
+    {
+      id: "5",
+      image: "https://m.media-amazon.com/images/I/81tlu6y1odL._UF1000,1000_QL80_.jpg",
+      title: "Detan Cofee Face Scrub",
       price: 189.00,
       originalPrice: 220.00,
-      category: "Serum",
+      category: "Scrub",
       rating: 4.7,
       reviewCount: 203,
       colors: ["#8B5CF6", "#A855F7"]
@@ -147,7 +157,7 @@ const Index = () => {
       id: "h3",
       image: hairCare3,
       title: "Deep Repair Hair Mask",
-      price: 35.99,
+      price: 359,
       originalPrice: 49.99,
       rating: 4.7,
       reviewCount: 256
@@ -223,7 +233,7 @@ const Index = () => {
       id: "1",
       image: blogMakeupImage,
       title: "10 Essential Makeup Tips for Beginners",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
+      excerpt: "“Glow every day, naturally.Because your skin deserves the best.”",
       category: "Beauty",
       categoryColor: "#EC4899",
       author: "Sarah Johnson",
@@ -301,8 +311,8 @@ const Index = () => {
           </Button>
           
           <p className="text-lg md:text-xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            ut aliquam, purus sit amet luctus venenatis
+          “Glow every day, naturally.
+          Because your skin deserves the best.”
           </p>
         </div>
       </section>
@@ -323,8 +333,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              ut aliquam, purus sit amet luctus venenatis
+            “Every product is crafted with care and purity.
+            Find everything you need for glowing confidence.”
             </p>
           </div>
           
@@ -385,7 +395,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose BRANCY?
+              Why Choose Cosscent?
             </h2>
           </div>
           

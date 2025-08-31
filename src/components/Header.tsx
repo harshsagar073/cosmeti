@@ -20,11 +20,19 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
+  <img 
+    src="/logo.png" 
+    alt="Cosscent Logo" 
+    className="h-10 w-auto mr-3"
+  />
+</div>
+
+          <div className="flex items-center">
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center mr-3">
-              <span className="text-white font-bold text-lg">B</span>
+              <span className="text-white font-bold text-lg">C</span>
             </div>
             <h1 className="text-2xl font-bold text-foreground">
-              BRANCY
+              Cosscent
             </h1>
           </div>
 
