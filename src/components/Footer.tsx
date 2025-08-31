@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Newsletter Section */}
         <div className="bg-gradient-primary rounded-2xl p-8 mb-12 text-center">
           <h3 className="text-2xl font-bold text-white mb-4">
-            Stay Beautiful with Lumière
+            Stay Beautiful with Cosscent
           </h3>
           <p className="text-white/90 mb-6 max-w-2xl mx-auto">
             Subscribe to our newsletter and be the first to know about new products, 
@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-              Lumière
+              Cosscent
             </h3>
             <p className="text-secondary-foreground/80 mb-4">
               Premium cosmetics that enhance your natural beauty. Crafted with love and the finest ingredients.
@@ -93,7 +93,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-secondary-foreground/60 text-sm">
-            © 2024 Lumière Cosmetics. All rights reserved.
+            © 2024 Cosscent Cosmetics. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#" className="text-secondary-foreground/60 hover:text-accent text-sm transition-colors">
