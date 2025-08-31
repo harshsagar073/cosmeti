@@ -23,15 +23,9 @@ const Header = () => {
   <img 
     src="/logo.png" 
     alt="Cosscent Logo" 
-    className="h-16 w-35 mr-3"
+    className="h-16 w-50 mr-3"
   />
 </div>
-
-          <div className="flex items-center">
-            <div className="w-32 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mr-3">
-              <span className="text-white font-bold text-lg">Cosscent</span>
-            </div>
-          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
