@@ -23,17 +23,14 @@ const Header = () => {
   <img 
     src="/logo.png" 
     alt="Cosscent Logo" 
-    className="h-10 w-auto mr-3"
+    className="h-16 w-35 mr-3"
   />
 </div>
 
           <div className="flex items-center">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center mr-3">
-              <span className="text-white font-bold text-lg">C</span>
+            <div className="w-32 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mr-3">
+              <span className="text-white font-bold text-lg">Cosscent</span>
             </div>
-            <h1 className="text-2xl font-bold text-foreground">
-              Cosscent
-            </h1>
           </div>
 
           {/* Desktop Navigation */}
