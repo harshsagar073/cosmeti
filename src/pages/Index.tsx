@@ -27,10 +27,6 @@ import skincare1 from "@/assets/skincare-1.jpg";
 import skincare2 from "@/assets/skincare-2.jpg";
 import skincare3 from "@/assets/skincare-3.jpg";
 
-// Lipstick Images
-import lipstick1 from "@/assets/lipstick-1.jpg";
-import lipstick2 from "@/assets/lipstick-2.jpg";
-import lipstick3 from "@/assets/lipstick-3.jpg";
 
 const Index = () => {
   const categories = [
@@ -48,23 +44,11 @@ const Index = () => {
       bgColorClass: "bg-category-skin-bg",
     },
     {
-      title: "Lip stick",
-      icon: <Palette className="w-8 h-8 text-white" />,
-      colorClass: "bg-category-lips",
-      bgColorClass: "bg-category-lips-bg",
-    },
-    {
       title: "Face skin",
       icon: <User className="w-8 h-8 text-white" />,
       colorClass: "bg-category-face",
       bgColorClass: "bg-category-face-bg",
       isSale: true,
-    },
-    {
-      title: "Blusher",
-      icon: <Zap className="w-8 h-8 text-white" />,
-      colorClass: "bg-category-blusher",
-      bgColorClass: "bg-category-blusher-bg",
     },
     {
       title: "Natural",
@@ -196,38 +180,6 @@ const Index = () => {
     }
   ];
 
-  // Lipstick Products
-  const lipstickProducts = [
-    {
-      id: "l1",
-      image: lipstick1,
-      title: "Signature Lipstick Collection",
-      price: 68.99,
-      originalPrice: 85.00,
-      rating: 4.9,
-      reviewCount: 567,
-      isBestseller: true
-    },
-    {
-      id: "l2",
-      image: lipstick2,
-      title: "Matte Liquid Lipstick",
-      price: 24.99,
-      rating: 4.7,
-      reviewCount: 234,
-      isNew: true
-    },
-    {
-      id: "l3",
-      image: lipstick3,
-      title: "Glossy Lip Collection",
-      price: 32.99,
-      originalPrice: 42.00,
-      rating: 4.8,
-      reviewCount: 298
-    }
-  ];
-
   const blogPosts = [
     {
       id: "1",
@@ -320,7 +272,7 @@ const Index = () => {
       {/* Categories Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 justify-center">
             {categories.map((category, index) => (
               <CategoryCard key={index} {...category} />
             ))}
@@ -358,15 +310,6 @@ const Index = () => {
         products={skincareProducts}
         bgColor="bg-category-skin-bg/30"
         textColor="text-category-skin"
-      />
-
-      {/* Lipstick Showcase */}
-      <CategoryShowcase
-        title="Lipstick Collection"
-        description="Express yourself with our vibrant and long-lasting lip colors"
-        products={lipstickProducts}
-        bgColor="bg-category-lips-bg/30"
-        textColor="text-category-lips"
       />
 
       {/* Blog Section */}
